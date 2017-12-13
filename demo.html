@@ -13,7 +13,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   
   <script src="../webcomponentsjs/webcomponents.js"></script>
   
-  <link rel="import" href="core-icon-button.html">
+  <link rel="import" href="core-icon-button-ginkgo.html">
   <style>
   </style>
   
@@ -24,9 +24,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <template is="auto-binding">
     <template repeat="{{icon in $.meta.metaData.icons.iconNames}}">
-      <core-icon-button icon="{{icon}}" title="{{icon}}"></core-icon-button>
+      <core-icon-button-ginkgo icon="{{icon}}" title="{{icon}}"></core-icon-button-ginkgo>
     </template>
-    <core-icon-button icon="menu"><span>label</span></core-icon-button>
+    <core-icon-button-ginkgo icon="menu"><span>label</span></core-icon-button-ginkgo>
   </div>
   <core-iconset id="meta"></core-iconset>
 </template>

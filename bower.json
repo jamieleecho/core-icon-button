@@ -1,5 +1,5 @@
 {
-  "name": "core-icon-button",
+  "name": "core-icon-button-ginkgo",
   "private": true,
   "dependencies": {
     "core-icons": "Polymer/core-icons#master",
